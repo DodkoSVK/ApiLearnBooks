@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Books</title>
+    </head>
+    <body class="bg-blue-300">
+        <div class="root">
+            <nav class="p-8 bg-orange-400">
+                <ul class="flex flex-row">
+                    <li class="mx-5 text-white text-xl font-bold hover:underline active:text-violet-600"><a href="#">Books</a></li>
+                    <li class="mx-5 text-white text-xl font-bold hover:underline active:text-violet-600"><a href="#">Create</a></li>
+                    <li class="mx-5 text-white text-xl font-bold hover:underline active:text-violet-600"><a href="#">Find</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <form action="#" class="max-w-md mx-auto">
+                <div class="relative z-0 w-full mb-5">                   
+                    <input type="text" name="bookName" id="bookName" class="py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:">
+                    <label for="bookName">Book Name</label>
+                </div>
+                
+                <label for="bookGenre">Book Genre</label>
+                <input type="text" name="bookGenre" id="bookGenre">
+                <label for="bookRating">Book Rating</label>
+                <input type="text" name="bookRating" id="bookRating">
+                <button type="submit">Hladaj</button>
+            </form>
+        </main>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
